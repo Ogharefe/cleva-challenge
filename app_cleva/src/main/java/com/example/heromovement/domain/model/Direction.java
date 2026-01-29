@@ -27,7 +27,7 @@ public enum Direction {
             case 'N' -> N;
             case 'S' -> S;
             case 'E' -> E;
-            case 'O' -> O;
+            case 'O', 'W' -> O;
             default -> {
                 logger.warn("Invalid direction: {}", c);
                 throw new InvalidInstructionException("Invalid direction: " + c);

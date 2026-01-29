@@ -3,4 +3,14 @@ server:
 
 app:
   map:
-    path: "C:/clevaProject/pop/carte.txt"
+    path: "C:/projects/carte.txt"
+  instructions:
+    dir: "C:/projects"
+
+
+  spring:
+    servlet:
+      multipart:
+        enabled: true
+        max-file-size: 10MB
+        max-request-size: 10MB
