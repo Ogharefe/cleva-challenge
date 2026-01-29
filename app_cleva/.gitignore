@@ -1,0 +1,6 @@
+# Build outputs
+/target/
+
+# Logs
+*.log
+app_cleva/logs/
