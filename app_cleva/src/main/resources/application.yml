@@ -3,4 +3,4 @@ server:
 
 app:
   map:
-    path: "C:/clevaProject/pop/carte.txt"
+    path: "C:/projects/carte.txt"
